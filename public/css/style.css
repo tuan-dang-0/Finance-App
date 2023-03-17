@@ -1,0 +1,82 @@
+body{
+	font-family:Arial, Helvetia, sans-serif;
+	margin:0;
+}
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color: #000;
+	color:#00b4d8;
+}
+
+#accounts{
+	margin-top:50px;
+	margin-left:2.5%;
+	padding-bottom:20px;
+	float:left;
+	width:45%;
+	border:solid rgba(0,0,0,0.5) 2px;
+	box-sizing:border-box;
+}
+
+#accounts h2{
+	font-size: 50px;
+}
+
+#accounts table{
+	background-color: white;
+	border: solid black 3px;
+	padding: 6px;
+	font-size: 25px;
+}
+
+#accounts tr{
+	border-collapse: collapse;
+	border: solid black 1px;
+	background-color: gray;
+}
+
+#accounts th{
+	text-align: left;
+
+}
+
+#accounts td{
+	padding-left: 60px;
+}
+
+#transactions{
+	background-color:#fafafa;
+	margin-top:50px;
+	margin-right:2.5%;
+	padding-bottom:20px;
+	float:right;
+	width:45%;
+	border:solid rgba(0,0,0,0.5) 2px;
+	box-sizing:border-box;
+}
+
+#transactions h2{
+	font-size: 50px;
+	padding-b
+}
+
+#transactions table{
+	border: solid black 3px;
+	padding: 6px;
+	font-size: 25px;
+}
+
+#transactions th{
+	text-align: left;
+
+}
+
+#transactions td{
+	padding-left: 60px;
+}
